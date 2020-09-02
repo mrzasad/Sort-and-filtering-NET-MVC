@@ -1,0 +1,29 @@
+﻿@{
+    ViewBag.Title = "Home";
+}
+@model List<trustedi10_mvc_Assessment_asad.Models.recDetailsModel>
+
+
+<div class="row recsection">
+    <div class="col-md-12">
+        <table class="datatable col-md-12">
+            <thead>
+                <tr>
+                    <th>
+                        Rec Details
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @item.result
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>    
+</div>
