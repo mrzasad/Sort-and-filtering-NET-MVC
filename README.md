@@ -1,4 +1,10 @@
-# trustedi10-mvc-assessment-asad
+# mvc-assessment-asad
+
+Application to load user data using the JSON format and display based on the filter criteria defined in the requirement. 
+
+
+![alt text](https://github.com/mrzasad/mvc-bootstrap/blob/master/trustedi10-mvc-Assessment-asad/Content/image.png)
+
 
 #SQL Script 
 
